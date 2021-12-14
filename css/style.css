@@ -1,5 +1,6 @@
 h1 {
   font-family: helvetica;
-  font-color: aqua;
+  color: aqua;
   opacity: 0.75;
+  text-align: center;
 }
