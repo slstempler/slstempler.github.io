@@ -1,0 +1,59 @@
+html {
+    background-color: lightslategray;
+}
+h1 {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #011e4a;
+    opacity: 0.9;
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+    font-family: 'Merriweather', Georgia, serif;
+    text-align: left;
+}
+
+p {
+    color: #fff;
+}
+
+h2 + p {
+    font-family: Roboto;
+    font-style: italic;
+}
+table {
+    font-family: roboto;
+    font-weight: thin;
+    border: thick double #011e4a;
+    margin: 0% auto;
+    width: 90%;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 5px;
+}
+
+th {
+    font-size: 110%;
+    color: #011e4a
+}
+
+tr, td {
+    border: thin solid #011e4a;
+    font-size: 95%;
+}
+
+td {
+    height: 30px
+}
+
+tr:nth-child(even) {
+    background-color: #011e4abb;
+    color: #fff;
+}
+
+table code {
+    font-size: 110%;
+}
