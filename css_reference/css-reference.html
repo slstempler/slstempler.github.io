@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<head>
+    <title>CSS Selectors Reference</title>
+    <link href="styles/styles.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,900&family=Merriweather&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <h1>CSS Selectors Reference</h1>
+    </header>
+    <article>
+        <h2>Basic Selectors</h2>
+        <p class="subhead">Selectors are listed in order of specificity, from the most general to the most specific. More specific selectors will override styles of more general selectors.</p>
+        <table>
+            <thead>
+                <th>Selector</th>
+                <th>Description</th>
+                <th>Syntax</th>
+            </thead>
+            <tr>
+                <td>Universal</td>
+                <td>Affects all elements on the page</td>
+                <td><code>*</code></td>
+            </tr>
+            <tr>
+                <td>Type</td>
+                <td>Affects all HTML elements of the selected name</td>
+                <td><code>type</code></td>
+            </tr>
+            <tr>
+                <td>Class</td>
+                <td>Affects all elements with the selected class</td>
+                <td><code>.class</code></td>
+            </tr>
+            <tr>
+                <td>ID</td>
+                <td>Affects the element with the selected ID</td>
+                <td><code>#ID</code></td>
+            </tr>
+        </table>
+        <h2>Grouping & Combinators</h2>
+        <p class="subhead">These operators can be used to create hierarchical relationships between elements.</p>
+        <table>
+            <thead>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Syntax</th>
+            </thead>
+            <tr>
+                <td>List</td>
+                <td>Selects all elements in list</td>
+                <td><code>X, Y</code></td>
+            </tr>
+            <tr>
+                <td>Descendant</td>
+                <td>Selects all Y within instances of X</td>
+                <td><code>X Y</code></td>
+            </tr>
+            <tr>
+                <td>Chain</td>
+                <td>Selects all elements that are both class X and class Y</td>
+                <td><code>.X.Y</code></td>
+            </tr>
+            <tr>
+                <td>Child</td>
+                <td>Selects all elements Y that have an immediate parent X</td>
+                <td><code>X > Y</code></td>
+            </tr>
+            <tr>
+                <td>Adjacent Sibling</td>
+                <td>Selects all Y that are immediately following instances of X</td> 
+                <td><code>X + Y</code></td>
+            </tr>
+            <tr>
+                <td>General Sibling</td>
+                <td>Selects all Y that are following insances of X</td>
+                <td><code>X ~ Y</code></td>
+            </tr>
+        </table>
+    </article>
+    <footer>
+    </footer>
+</body>
