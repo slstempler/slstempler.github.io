@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <title>Style Guide</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,700&family=Nunito:ital,wght@0,300;0,400;0,700;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100&display=swap" rel="stylesheet"> 
+ </head>
+<body>
+    <h1>Style Guide</h1>
+    <nav>
+        <ul>
+            <li>navigation</li>
+            <li><a href=#>home</a></li>
+            <li><a href=#color-guide>colors</a></li>
+            <li><a href=#font-guide>fonts</a></li>
+            <li><a href=#element-guide>elements</a></li>
+            <li><a href=#layout-guide>layout</a></li>
+        </ul>
+    </nav>
+    <section id="color-guide">
+        <h2 class="section-header">colors</h2>
+        <div class="color-block" id="cerulean">
+            <h3>cerulean: #4ABFDB</h3>
+            <p class="rgb-values">RGB: 74 191 219</p>
+        </div>
+        <div class="color-block" id="deep-aqua">
+            <h3>deep aqua: #22798F</h3>
+            <p class="rgb-values">RGB: 34 121 143</p>
+        </div>
+        <div class="color-block" id="coral">
+            <h3>coral: #DB608C</h3>
+            <p class="rgb-values">RGB: 219 96 140</p>
+        </div>
+        <div class="color-block" id="sunflower-gold">
+            <h3>sunflower gold: #DBCD35</h3>
+            <p class="rgb-values">RGB: 219 205 53</p>
+        </div>
+        <div class="color-block" id="weathered-bronze">
+            <h3>weathered bronze: #8F8629</h3>
+            <p class="rgb-values">RGB: 143 134 41</p>
+        </div>
+    </section>
+
+    <section id="font-guide">
+        <h2 class="section-header">fonts</h2>
+        <div class="font-block">
+            <h3 class="roboto">Roboto</h3>
+            <p class="roboto font-100 ital">Light Italic: Sphinx of black quartz, judge my vow.</p>
+            <p class="roboto font-400">Normal: Sphinx of black quartz, judge my vow.</p>
+            <p class="roboto font-900">Black: Sphinx of black quartz, judge my vow.</p>
+        </div>
+        <div class ="font-block">
+            <h3 class="nunito">Nunito</h3>
+            <p class="nunito font-300">Light: Sphinx of black quartz, judge my vow.</p>
+            <p class="nunito font-500 ital">Medium Italic: Sphinx of black quartz, judge my vow.</p>
+            <p class="nunito font-700">Bold: Sphinx of black quartz, judge my vow.</p>
+        </div>
+        <div class ="font-block">
+            <h3 class="lora">Lora</h3>
+            <p class="lora font-400">Normal: Sphinx of black quartz, judge my vow.</p>
+            <p class="lora font-700">Bold: Sphinx of black quartz, judge my vow.</p>
+            <p class="lora font-700 ital">Bold Italic: Sphinx of black quartz, judge my vow.</p>
+        </div>
+    </section>
+    <section id="element-guide">
+        <h2 class="section-header">elements</h2>
+        <div class="element-block">
+            <h2 class="element-title">h2: headings</h2>
+            <ul>
+                <li>typeface: Roboto</li>
+                <li>font size: 32px</li>
+                <li>font weight: 900</li>
+            </ul>
+        </div>
+        <div class="element-block">
+            <h3 class="element-title">h3: subheadings</h3>
+            <ul class="nunito">
+                <li>typeface: Nunito</li>
+                <li>font size: 24px</li>
+                <li>font weight: 700</li>
+                <li>text decoration: underline</li>
+            </ul>
+        </div>
+        <div class="element-block">
+            <p class="element-title">p: main paragraph copy</p>
+            <ul class="p-style">
+                <li>typeface: Lora</li>
+                <li>font size: 17px</li>
+                <li>font weight: 400</li>
+                <li>text decoration: underline</li>
+            </ul>
+        </div>
+    </section>
+    <section id="layout-guide">
+        <h2 class="section-header">layout</h2>
+        <div class="layout-block">
+            <h3>alignment</h3>
+                <p>all elements should be vertically aligned to the top of their containers, which ensures consistency across the layout of horizontally adjacent content blocks.</p>
+        </div>
+        <div class="layout-block">
+            <h3>responsiveness</h3>
+                <p>the page should be scalable across differently-sized viewports: utilizing the display mode <code>inline-block</code> and preferring to define containers using <code>max-width</code> will allow for automatic resizing of each element as users scale their browser windows.</p>
+        </div>
+        <div class="layout-block">
+            <h3>structure</h3>
+                <p>each major section should be divided into smaller discrete blocks. these may be defined using <code>div</code> containers or semeantic elements as the case may allow, but in all cases should be visually compatible with the responsive direction outlined previously.</p>
+        </div>
+    </section>
+<footer></footer>
+</body>
+</html>
